@@ -1,0 +1,82 @@
+@font-face{
+	font-family: "parrafo";
+	src: url("../fonts/copyfonts.com_gotham_light.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: "titulares";
+	src: url("../fonts/Gobold Thin.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: "titularesarriba";
+	src: url("../fonts/Gobold Regular.ttf") format("truetype");
+}
+
+
+ h1, h2, h3, h4, h5{
+	font-family: "titulares";
+}
+
+#mainNav{
+	background-color: #5d49ab;
+}
+
+#about{
+	background-color: #497cab;
+}
+
+#comienzo{
+	background-color: #497cab;
+}
+
+#operaciones{
+	text-align: center;
+}
+
+#operaciones h3{
+	color: #5d49ab;
+}
+
+.primero{
+	text-align: right;
+	list-style: none;
+	padding-top: 30px;
+	font-size: 18px;
+	font-family: "parrafo";
+}
+
+.segundo{
+	text-align: right;
+	list-style: none;
+	padding-top: 25px;
+	padding-left: 0px;
+	font-size: 18px;
+	font-family: "parrafo";
+}
+
+.tercero{
+	text-align: right;
+	list-style: none;
+	padding-top: 25px;
+	font-size: 18px;
+	font-family: "parrafo";
+}
+
+#perfilesmedicos{
+	padding-bottom: 15px;
+}
+
+.nombresdoc{
+	color:#fff;
+	position: absolute;
+	margin-left:0px;
+	margin-top: -80px;
+	background-color: #497cab;
+	padding:15px;
+	padding-left: 30px;
+}
+
+li .page-scroll> a{
+	font-size: 30px;
+}
